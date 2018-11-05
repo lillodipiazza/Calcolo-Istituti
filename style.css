@@ -1,0 +1,37 @@
+body {
+  background-color: #F5F5F5;
+}
+.input-group-text {
+  width: 100px;
+}
+.input-group {
+  margin-bottom: 5px;
+}
+.giorni{
+  font-size: 70px!important;
+}
+.head {
+  border-radius: 0!important;
+  font-family: 'Special Elite', cursive;
+  color: #fff;
+  background-color: #007bff;
+  background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://www.agenziapennisi.it/wp-content/uploads/2018/03/02-gallotti-e-radice-office-1.jpg");
+  background-position: center; 
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;  
+}
+
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #63B76C; vertical-align: middle; }
+.box > .icon:hover > .image { background: #333; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: white !important; }
+.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; }
+.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+.box > .icon > .info > h3.title { font-family: "Roboto",sans-serif !important; font-size: 16px; color: #222; font-weight: 500; margin:15px }
+.box > .icon > .info > p { font-family: "Roboto",sans-serif !important; font-size: 13px; color: #666;}
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; margin-top: 15px;}
+.box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+.box .space { height: 30px; }
