@@ -1,5 +1,5 @@
 body {
-  background-color: #F5F5F5;
+  background-color: #F5F5F5!important;
 }
 .input-group-text {
   width: 100px;
@@ -14,12 +14,8 @@ body {
   border-radius: 0!important;
   font-family: 'Special Elite', cursive;
   color: #fff;
-  background-color: #007bff;
-  background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://www.agenziapennisi.it/wp-content/uploads/2018/03/02-gallotti-e-radice-office-1.jpg");
-  background-position: center; 
+  background-color: #000000;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;  
 }
 
 .box > .icon { text-align: center; position: relative; }
