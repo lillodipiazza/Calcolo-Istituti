@@ -24,7 +24,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-md-6 col-xs-12">
 
 <div class="card border-dark mb-3">
   <div class="card-header h5"><i class="far fa-clock"></i> INSERIRE DATI IN ORE</div>
@@ -34,40 +34,43 @@
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">RCGO</span>
 		  </div>
-		  <input ng-model="rcgo" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="rcgo" type="number" class="form-control ng-touched ng-dirty ng-valid ng-valid-parse ng-not-empty" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
 		<div class="input-group input-group-lg">
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">RCMA</span>
 		  </div>
-		  <input ng-model="rcma" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="rcma" type="number" class="form-control ng-pristine ng-valid ng-empty ng-touched" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
 		<div class="input-group input-group-lg">
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">ROL</span>
 		  </div>
-		  <input ng-model="rol" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="rol" type="number" class="form-control ng-pristine ng-valid ng-empty ng-touched" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
 		<div class="input-group input-group-lg">
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">F1</span>
 		  </div>
-		  <input ng-model="f1" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="f1" type="number" class="form-control ng-pristine ng-valid ng-empty ng-touched" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
 		<div class="input-group input-group-lg">
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">CCRC</span>
 		  </div>
-		  <input ng-model="ccrc" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="ccrc" type="number" class="form-control ng-pristine ng-valid ng-empty ng-touched" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
   </div>
 </div>
 
+</div>
+
+<div class="col-md-6 col-xs-12">
 
 <div class="card border-dark mb-3">
   <div class="card-header h5"><i class="far fa-calendar-plus"></i> INSERIRE DATI IN GIORNI</div>
@@ -77,37 +80,45 @@
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">RCGG</span>
 		  </div>
-		  <input ng-model="rcgg" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="rcgg" type="number" class="form-control ng-valid ng-touched ng-dirty ng-valid-parse ng-not-empty" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
 		<div class="input-group input-group-lg">
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-lg">ARDO</span>
 		  </div>
-		  <input ng-model="ardo" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		  <input ng-model="ardo" type="number" class="form-control ng-valid ng-touched ng-not-empty ng-dirty ng-valid-parse" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 		</div>
 
   </div>
 </div>
 
+</div>
 
+
+
+
+
+
+
+
+
+	    </div>
+	<div class="row">
+<div class="col">
 <div class="box">
 	<div class="icon">
 		<div class="image"><i class="fa fa-desktop"></i></div>
 		<div class="info">
 			<h3 class="title">Dove recupero i dati?</h3>
 				<p>
-				Da RiprasWin -> Richieste e Stampe -> Stampe -> Giustificativi. <br/> Una volta settate le date corrette clicca su stampe e recupera l'ultima pagina con i totali del mese.
+				Da RiprasWin -&gt; Richieste e Stampe -&gt; Stampe -&gt; Giustificativi. <br> Una volta settate le date corrette clicca su stampe e recupera l'ultima pagina con i totali del mese.
 			</p>
 		</div>
 	</div>
 	<div class="space"></div>
 </div>
-
-<p style="text-align:center">Made with <i class="fas fa-heart" style="color:#EC6A5C"></i> by Lillo Di Piazza</p>
-
-
-	      </div>
-	    </div>
-	</div>
+</div>
+</div>
+<p style="text-align:center">Made with <i class="fas fa-heart" style="color:#EC6A5C"></i> by Lillo Di Piazza</p></div>
 </div>
